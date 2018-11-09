@@ -44,12 +44,4 @@ athlete_data = pull_ams(server = "ams",
                         form = "NSWIS Scholarship",
                         start_date = "01012015",
                         finish_date = "01092018",
-                        username = "george.wehbe")
-
-# create injuries data frame
-injury_data = pull_ams(server = "ams",
-                       site = "nswis",
-                       form = "Injury Record",
-                       start_date = "01012016",
-                       finish_date = "01092018",
-                       username = "george.wehbe")
+                        username = "firstname.lastname")
